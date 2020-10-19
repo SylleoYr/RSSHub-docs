@@ -1,2 +1,3 @@
 # docs-it
-some docs from other repos automated with GitHub Actions.
+
+Some docs from other repos automated with [GitHub Actions](https://github.com/features/actions).
