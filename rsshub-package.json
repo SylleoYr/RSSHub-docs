@@ -7,6 +7,7 @@
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-google-analytics": "^1.7.1",
     "@vuepress/plugin-pwa": "^1.7.1",
-    "vuepress": "^1.7.1"
+    "vuepress": "^1.7.1",
+    "pinyin": "2.9.1"
   }
 }
