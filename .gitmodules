@@ -1,0 +1,3 @@
+[submodule "rsshub"]
+	path = rsshub
+	url = ./rsshub
