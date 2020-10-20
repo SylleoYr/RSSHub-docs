@@ -1,11 +1,9 @@
-name: update, build and deploy rsshub docs
+name: build and deploy rsshub docs
 
 on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 6 * * *'
 
 jobs:
   deploy:
