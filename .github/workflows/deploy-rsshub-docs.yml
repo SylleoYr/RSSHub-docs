@@ -35,7 +35,7 @@ jobs:
         run: |
           cp rsshub-package.json rsshub/package.json
           cd rsshub
-          npm ci && npm run docs:build
+          npm i && npm run docs:build
           cd ..
       
       - name: deploy rsshub docs
