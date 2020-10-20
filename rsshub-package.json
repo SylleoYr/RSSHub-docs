@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "@vuepress/plugin-google-analytics": "^1.7.1",
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "vuepress": "^1.7.1"
+  }
+}

@@ -17,10 +17,11 @@ jobs:
       
       - name: update rsshub docs
         run: |
-          git submodule update --force --checkout rsshub
+          git submodule update --init --checkout rsshub
       
       - name: build docs
         run: |
+          cp rsshub-package.json rsshub/package.json
           cd rsshub
           npm i && npm run docs:build
           cd ..
