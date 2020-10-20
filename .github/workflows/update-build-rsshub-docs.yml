@@ -29,8 +29,7 @@ jobs:
       - name: deploy docs
         run: |
           test -d docs/rsshub && rm -rf docs/rsshub
-          mkdir -p docs/rsshub
-          cp -r rsshub/docs/.vuepress/dist ../docs/rsshub
+          cp -r rsshub/docs/.vuepress/dist docs/rsshub
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
