@@ -1,1 +1,4 @@
 /.history/
+
+# dist dir for rsshub docs
+/rsshub/docs/.vuepress/dist
